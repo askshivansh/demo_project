@@ -1,0 +1,137 @@
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.bread_div {
+    background-color: #F7F7F7;
+    padding: 12px;
+    color: #A0A0A0;
+}
+
+span.specbread {
+    color: black;
+}
+
+.main_related h1 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.card {
+    margin: 1%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: white;
+    width: 22.25%;
+    border-radius: 12px;
+    float: left;
+    padding: 17px;
+    display: inline-block;
+}
+
+.main_related {
+    margin-top: 60px;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+}
+
+.card_info {
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 10px 20px 0px 0px;
+}
+
+.card_cat{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+}
+
+.card_title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    text-transform: capitalize;
+}
+
+.bread_div {
+    background-color: #F7F7F7;
+    padding: 12px;
+    color: #A0A0A0;
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+.logo {
+    color: black;
+    font-size: 20px;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+}
+
+.main_div {
+    width: 100%;
+    height: 7rem;
+    display: grid;
+    grid-template-columns: 4rem 0.3fr 2fr 1fr 4rem;
+    margin-top: -54px;
+}
+
+span.spec_btn {
+    color: #F97957;
+    padding-left: 25px;
+}
+
+.spec_btn svg {
+    color: white;
+    vertical-align: middle;
+}
+
+.menu_link ul {
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_link {
+    grid-column: 3/4;
+}
+
+.cart_div{
+    grid-column: 4/5;
+}
+.cart_div ul{
+    height: 10rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr repeat(4, 1fr);
+}
+
+.cart_div ul li:first-child{
+    grid-column: 2/3;
+}
+
+.cart_div ul, .menu_link ul {
+    list-style-type: none;
+}
+
+.notice_div {
+    background-color: black;
+    color: white;
+    padding: 14px;
+    text-align: center;
+}
